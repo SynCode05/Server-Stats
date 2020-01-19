@@ -39,9 +39,9 @@ bot.on("ready", async () => {
         users = guild.memberCount + users 
     });
     const activities_list = [
-        "Support invite.gg/elementary | .help", 
-        `${users.toLocaleString()} Users | .help`,
-        `${bot.guilds.size} Guilds | .help`
+        "Support invite.gg/elementary | ss!help", 
+        `${users.toLocaleString()} Users | ss!help`,
+        `${bot.guilds.size} Guilds | ss!help`
         ];
     
         console.log(`[LOGS] Logged in to ${bot.user.username} (${bot.guilds.size} servers - ${bot.users.size} users)`)
