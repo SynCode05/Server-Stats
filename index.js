@@ -54,8 +54,8 @@ bot.on("ready", async () => {
 
 bot.on('message', (message) => {  
     if (message.author.bot) return;
-        		
-            }
+
+            });
             prefix = config.prefix
             if (message.content.startsWith(config.prefix)) {
 
@@ -68,8 +68,7 @@ bot.on('message', (message) => {
                 if(commandfile) commandfile.run(bot, message, args, ops)
             };
         });
-    });
-});    
+    });  
 
 //Login
 bot.login(process.env.token);
