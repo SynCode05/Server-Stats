@@ -76,6 +76,6 @@ bot.on('message', (message) => {
 });    
 
 //Login
-bot.login(token.token);
+bot.login(process.env.token);
 
 
