@@ -27,7 +27,6 @@ module.exports.run = async (bot, message, args) => {
         "russia": ":flag_ru: Russia",
         "southafrica": ":flag_za:  South Africa"
     };
-    const prefix = guild.prefix
     let icon = message.author.displayAvatarURL;
     let user = message.author.username
     let online = message.guild.members.filter(member => member.presence.status === 'online').size
