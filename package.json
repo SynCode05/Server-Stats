@@ -1,72 +1,29 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@SynCode05 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-SynCode05
-/
-Discord-Bot
-Private
-1
-10
- Code Issues 0 Pull requests 0 Actions Projects 0 Security Insights Settings
-Discord-Bot/package.json
-@SynCode05 SynCode05 Add files via upload
-a9860b8 on 29 Aug 2019
-49 lines (49 sloc)  1.14 KB
-  
 {
-  "name": "discord-bot-project",
+  "name": "sever-stats",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bot",
   "main": "index.js",
+  "dependencies": {
+    "bot-utils": "^1.4.2",
+    "discord.js": "^11.5.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SynCode05/Discord-Bot.git"
+    "url": "git+https://github.com/SynCode05/Server-Stats.git"
   },
   "keywords": [
-    "Discord",
-    "Bot",
-    "Discord",
-    "Bot"
+    "bot"
   ],
-  "author": "Syn (Code)",
+  "author": "SynCode",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SynCode05/Discord-Bot/issues"
+    "url": "https://github.com/SynCode05/Server-Stats/issues"
   },
-  "homepage": "https://github.com/SynCode05/Discord-Bot#readme",
-  "dependencies": {
-    "bot-utils": "^1.4.1",
-    "canvas": "^2.6.0",
-    "discord.js": "^11.5.1",
-    "fs": "0.0.1-security",
-    "node-fetch": "^2.6.0",
-    "node-opus": "^0.3.1",
-    "systeminformation": "^4.14.4",
-    "wait-for-user-input": "^1.0.0",
-  }
+  "homepage": "https://github.com/SynCode05/Server-Stats#readme"
 }
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
