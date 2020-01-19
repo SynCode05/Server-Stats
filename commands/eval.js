@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
 	let after = 0;
 	let error = false;
 	const args1 = message.content.split(" ").slice(1);
-	const code = message.content.replace(".evaluation ", "").replace(".eval ", "").replace(".e ", "");
+	const code = message.content.replace(`${prefix}evaluation `, "").replace(`${prefix}eval `, "").replace(`${prefix}e `, "");
 	if (!config.eval_access.includes(message.author.id))
 	{
 		message.channel.send('You do not have permission to use eval!');
