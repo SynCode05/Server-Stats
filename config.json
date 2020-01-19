@@ -1,0 +1,29 @@
+{
+    "prefix" : ".",
+    "owner_id" : ["ender urs"],
+    "eval_access": ["who ever", "you want"],
+    "active": "active",
+    "emojies": {
+        "discordjs":"<:discordjs:608370758774947883>",
+        "online":"<:online:615576124570861680>",
+        "idle": "<:idle:607989632688193574>",
+        "dnd": "<:dnd:607989654393978884>",
+        "offline": "<:offline:615577242772439060>",
+        "live": "<:live:615577106004443156>",
+        "onlinegif":"<a:onlinegif:615576198474629171>",
+        "idlegif": "<a:idlegif:615576611412115476>",
+        "dndgif": "<a:dndgif:615576585541517391>",
+        "offlinegif": "<a:offlinegif:615577312544555176>",
+        "livegif": "<a:livegif:615577023267471360>",
+        "yes": "<:yes:606541711165882379>",
+        "no": "<:no:606541714315804673>",
+        "no_access": "⛔",
+        "camera": "📷",
+        "inbox_tray": "📥",
+        "outbox_tray": "📤",
+        "gear": "⚙",
+        "helmet": "⛑",
+        "back": "↩",
+        "close": "❌"
+    }
+}
