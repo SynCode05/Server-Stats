@@ -6,8 +6,7 @@ const bot = new Discord.Client({
     disableEveryone: true
 });
 const config = require("./config.json");
-const token = require('./token.json')
-const prefix = config.prefix
+prefix = config.prefix
 
 
 
@@ -60,8 +59,8 @@ bot.on('message', (message) => {
         		message.react("606541711165882379").then(() => message.react("606541714315804673"));
         		
             }
-            const prefix = guild.prefix
-            if (message.content.startsWith(guild.prefix)) {
+           
+            if (message.content.startsWith(prefix)) {
 
             
                 let messageArray = message.content.split(" ")
