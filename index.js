@@ -54,13 +54,10 @@ bot.on("ready", async () => {
 
 bot.on('message', (message) => {  
     if (message.author.bot) return;
-
-	    if (message.content.startsWith( `poll:`)) {
-        		message.react("606541711165882379").then(() => message.react("606541714315804673"));
         		
             }
-           
-            if (message.content.startsWith(prefix)) {
+            prefix = config.prefix
+            if (message.content.startsWith(config.prefix)) {
 
             
                 let messageArray = message.content.split(" ")
